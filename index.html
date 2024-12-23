@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <style>
+    .playfair
+    {
+        font-family: "Playfair", serif;
+
+    }
+    .montserrat{
+        font-family: "Montserrat", sans-serif;
+
+    }
+  </style>
+</head>
+<body>
+  
+
+<!-- navbar section -->
+
+<header class="bg-whaite shadow-md py-4">
+
+    <nav class="flex justify-between items-center mx-auto w-3/4">
+
+
+<div class="font-playfair">
+    <a href="#">La Maison</a>
+</div>
+<div>
+
+
+          
+</div>
+<button id="main_button" class="md:hidden ">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+      </svg>
+      
+</button>
+<ul id="main-menu"
+ class="absolute md:relative top-14 md:top-0 md:flex md:gap-5 py-4 left-0 bg-white text-center w-full md:block hidden font-montserrat z-30 space-y-5">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Specials</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+    </nav>
+</header>
+
+
+
+
+<!-- Hero Section -->
+
+<section style="background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./resturant1.jpg)center/cover no-repeat;
+" 
+class="relative h-screen flex justify-center items-center">
+
+<div class="text-white text-center">
+    <h2 class="text-5xl md:text-7xl text-center font-playfair mb-6">La Mission</h2>
+
+    <p class="text-center text-xl md:text-2xl font-montserrat mb-6">Fine Dinning & Excceptional Experience</p>
+
+    <a class="bg-orange-600 hover:bg-gray-500 py-4 px-6 rounded-3xl mt-8 text-sm md:text-base" href="#">View Our Menu </a>
+</div>
+
+</section>
+<!-- Hero Section end -->
+
+<!-- Our Story section -->
+
+<section class="container mx-auto px-4 mt-10 mb-20 ">
+
+    <div class="grid md:grid-cols-2 items-center gap-10">
+
+        <div>
+<img class="rounded-xl w-full" src="./download.jpg" alt="">
+        </div>
+
+        <div>
+            <h2 class="text-xl md:text-3xl font-playfair mb-5">Our Story</h2>
+            <p class="mb-5 text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae doloribus laudantium corrupti ipsam consequatur numquam nostrum quia ad hic iure!</p>
+
+            <p class="text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, consequatur?</p>
+        </div>
+    </div>
+</section>
+
+<!-- Our Story section end -->
+
+<!-- Out Specialist section -->
+
+<section>
+
+    <div class="container mx-auto mt-10 mb-o px-10">
+        <h2 class="text-center text-2xl md:text-4xl mb-10 font-playfair">Our Specialist</h2>
+
+
+        
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+    <div class="relative group overflow-hidden">
+
+        <img class="w-full h-72 rounded-lg group-hover:scale-110 transition duration-300" src="./download.jpg" alt="">
+
+
+        <div class="absolute inset-0 flex bg-black group-hover:bg-opacity-50 transition duration-300 bg-opacity-40 text-white rounded-lg items-center justify-center">
+       
+            <div class="text-center">
+                <h2 class="text-xl md:text-2xl font-playfair">Signature Dishes</h2>
+    
+                <p class="font-montserrat">Crafted with passion</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="relative group overflow-hidden">
+
+        <img class="w-full h-72 rounded-lg group-hover:scale-110 transition duration-300" src="./download.jpg" alt="">
+
+
+        <div class="absolute inset-0 flex bg-black group-hover:bg-opacity-50 transition duration-300 bg-opacity-40 text-white rounded-lg items-center justify-center">
+       
+            <div class="text-center">
+                <h2 class="text-xl md:text-2xl font-playfair">Signature Dishes</h2>
+    
+                <p class="font-montserrat">Crafted with passion</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="relative group overflow-hidden">
+
+        <img class="w-full h-72 rounded-lg group-hover:scale-110 transition duration-300" src="./download.jpg" alt="">
+
+
+        <div class="absolute inset-0 flex bg-black group-hover:bg-opacity-50 transition duration-300 bg-opacity-40 text-white rounded-lg items-center justify-center">
+       
+            <div class="text-center">
+                <h2 class="text-xl md:text-2xl font-playfair">Signature Dishes</h2>
+    
+                <p class="font-montserrat">Crafted with passion</p>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+    </div>
+</section>
+
+<!-- Out Specialist section end -->
+
+<!-- our menu -->
+
+<section id="menu" class="py-4">
+
+<div class="container mx-auto px-4">
+    <h2 class="text-4xl font-playfair text-center mb-16 font-bold ">Our menu</h2>
+
+    <div class="grid md:grid-cols-2 gap-12 max-w-5xl max-auto">
+        <div>
+            <h3 class="text-2xl font-playfair mb-6">Starters</h3>
+            <div class="space-y-6">
+                <div class="flex justify-between items-center">
+
+                    <div>
+                        <h4>French Onion Soup </h4>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <span class="text-amber-600">$16</span>
+
+                </div>
+
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h4 class="text-lg font-semibold">Escargots de Bourgogne</h4>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, asperiores?</p>
+                    </div>
+
+                    <span class="text-amber-600">$18</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="text-2xl font-playfair mb-6"></h3>
+
+            <div class="space-y-6">
+                <div class="flex justify-between items-center">
+
+                    <div>
+                        <h4>French Onion Soup </h4>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <span class="text-amber-600">$16</span>
+
+                </div>
+                
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h4 class="text-lg font-semibold">Escargots de Bourgogne</h4>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, asperiores?</p>
+                    </div>
+
+                    <span class="text-amber-600">$18</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- our menu end -->
+
+<!-- Contact section -->
+
+<section id="Contact" class="py-20 bg-gray-50">
+
+    <div class="container mx-auto px-4"> 
+        <div class="max-w-4xl mx-auto bg-white rounded shadow-lg p-8">
+
+            <h2 class="text-4xl font-bold font-playfair text-center mb-8">Make a Reservation</h2>
+
+            <div class="grid md:grid-cols-2 gap-12">
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                    <div class="space-y-4 text-gray-600">
+
+                        <p>
+                            <span class="font-semibold">Address:
+                            </span><br>123 Gourmet street,Culinary District
+                        </p>
+
+                        <p>
+                            <span class="font-semibold">Phone</span><br>reservetopm@2amaiospm.com
+                        </p>
+                    </div>
+
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold mb-4">Hours</h3>
+
+                        <div class="space-y-2 text-gray-600">
+                      <p>Tuesday = Sunday: 5:3PM = 10:30PM</p>
+
+                      <p>Tuesday = Sunday: 5:3PM = 10:30PM</p>
+
+                      <p>Closed on Monday</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <img src="https://th.bing.com/th/id/OIP.SWcdYyQvZIEGab6_mq6QMQHaLH?rs=1&pid=ImgDetMain" alt="" class="rounded-lg shadow-md object-cover h-full">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="resturant.js"></script>
+</body>
+</html> 
