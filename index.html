@@ -9,7 +9,7 @@
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
 
@@ -39,7 +39,7 @@
     <a href="#">La Maison</a>
 </div>
 <div>
-    <button id="main_button" class="md:hidden ">
+    <button id="main-button" class="md:hidden ">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
     
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
@@ -72,9 +72,26 @@ class="absolute md:relative top-14 md:top-0 md:flex md:gap-5 py-4 left-0  text-c
 class="relative h-screen flex justify-center items-center">
 
 <div class="text-white text-center">
-    <h2 class="text-5xl md:text-7xl text-center font-playfair mb-6">La Mission</h2>
+    <h2   
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+  
+   class="text-5xl md:text-7xl text-center font-playfair mb-6">La Mission</h2>
 
-    <p class="text-center text-xl md:text-2xl font-montserrat mb-6">Fine Dinning & Excceptional Experience</p>
+    <p  data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="70"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center" class="text-center text-xl md:text-2xl font-montserrat mb-6">Fine Dinning & Excceptional Experience</p>
 
     <a class="bg-orange-600 hover:bg-gray-500 py-4 px-6 rounded-3xl mt-8 text-sm md:text-base" href="#">View Our Menu </a>
 </div>
@@ -315,5 +332,9 @@ class="relative h-screen flex justify-center items-center">
 </footer>
 
 <script src="resturant.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html> 
